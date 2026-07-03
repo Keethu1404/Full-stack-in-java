@@ -287,3 +287,31 @@ public class ArrayRotate {
         System.out.println(Arrays.toString(rotated));
     }
 }
+//linked hash set
+import java.util.LinkedHashSet;
+public class SetExample {
+    public static void main(String[] args) {
+        LinkedHashSet<Integer> numbers = new LinkedHashSet<Integer>();
+        numbers.add(10);
+        numbers.add(20);
+        numbers.add(30);
+        numbers.add(40);
+        System.out.println(numbers.contains(10));
+        numbers.remove(20);
+        System.out.println(numbers);
+    }
+}
+//hash set integer
+import java.util.HashSet;
+public class SetExample {
+    public static void main(String[] args) {
+        HashSet<Integer> numbers = new HashSet<Integer>();
+        numbers.add(10);
+        numbers.add(20);
+        numbers.add(30);
+        numbers.add(40);
+        System.out.println(numbers.contains(10));
+        numbers.remove(20);
+        System.out.println(numbers);
+    }
+}
